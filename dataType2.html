@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>JS_dataType</title>
     <script src="script/script.js"></script>
+    <script>
+        alert("1" + 2 + 3);
+        // "1" + 2 가 문자로 연결된 뒤, "12"와 3은 다시 문자로 연결 된다.
+        alert(1 + 2 + "3");
+        // 1 + 2 숫자로 연산되여 3이 된 뒤, 3과 "3"은 문자로 연결 된다.
+    </script>
 </head>
 <body>
    <button type="button" onclick="fnNumAdd()">
